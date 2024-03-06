@@ -1,0 +1,12 @@
+.custom-colour-panel {
+    background-color: var(--Primary);
+}
+
+.colour-input {
+    padding: 0.1rem;
+    margin: 0.5rem;
+    background-color: var(--Grey);
+    border-bottom: 2px solid #000;
+    border-radius: 5px;
+    width: 6rem;
+}

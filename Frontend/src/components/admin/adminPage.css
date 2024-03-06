@@ -1,0 +1,67 @@
+.order,
+.selected-order,
+.orderItems {
+    background-color: var(--Secondary);
+}
+
+.user-name,
+.order-id,
+.order-item,
+.selected-order,
+.selected-order-items {
+    font-family: var(--Font-Inter);
+}
+
+.order-list-container {
+    overflow-y: auto;
+    max-height: 86vh;
+}
+
+.adm-nav-btn:hover {
+    background-color: var(--Primary);
+}
+
+.confirm-panel {
+    background-color: var(--Red);
+    z-index: 1;
+    transform: translateY(0);
+    transition: transform 1s;
+}
+
+.confirm-panel.active {
+    transform: translateY(2rem);
+}
+
+.add-menu-item-input,
+.edit-menu-item-input {
+    padding: 0.1rem;
+    margin: 0.5rem;
+    background-color: var(--Grey);
+    border-bottom: 2px solid #000;
+    border-radius: 5px;
+    width: 20rem;
+}
+
+.edit-menu-item {
+    padding: 0.1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    width: 20rem;
+}
+
+.edit-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.message.active {
+    background-color: var(--Red);
+    z-index: 1;
+    color: #fff;
+    transform: translateY(0);
+    transition: transform 1s;
+}
+
+.message.active {
+    transform: translateY(5rem);
+}

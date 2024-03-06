@@ -1,0 +1,40 @@
+:root {
+  --Primary: #bbbcbd;
+  --Secondary: #d1d5db;
+  --colourColour: #c3c8d4;
+  --White: #fff;
+  --Grey: #d9d9d9;
+  --Font-Inter: 'Inter', sans-serif;
+  --Font-Georgian: 'Noto Serif Georgian', serif;
+}
+
+/* Colors */
+.sidePanel, .mobileCartBtn, .cartItems, .Completed-order {
+  background-color: var(--Primary);
+}
+
+.foodList, .foodGroupButton, .paymentContainer, .login, .register, .modal-content {
+  background-color: var(--Secondary);
+}
+
+.foodGroup {
+  background-color: var(--colourColour);
+}
+
+/* Fonts */
+.title, .name, .modal-text, label, .amountNumber, .cartTitle, .totalPrice, .foodGroupButton, .foodGroupTitle {
+  font-family: var(--Font-Inter);
+}
+
+.ingredients {
+  font-family: var(--Font-Georgian)
+}
+
+.icon {
+  width: 64px;
+  height: 70px;
+}
+
+.foodGroupButton:hover, .order:hover {
+  background-color: var(--Primary);
+}
